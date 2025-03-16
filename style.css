@@ -1,0 +1,87 @@
+body {  
+      text-align: center;  
+      background: rgba(0, 0, 255, 0.6);  
+      height: auto;  
+    }
+    h2 {
+      width: 30ch;
+      font-family: monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 2s steps(20) infinite alternate-reverse;
+      margin-top: 100px;
+      text-align: center;
+    }
+    @keyframes typing {
+      from {
+        width: 0ch;
+      }
+    }
+    header {
+    }
+    nav { 
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+      position: fixed;
+      width: 100%;
+      border-radius: 6px;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.8);
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+    }
+    li { margin-right: 40px; }
+    a { color: blue; text-decoration: none; }
+    a:hover { color: red; background: silver; }
+    .img-text { 
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.6);
+    }
+    img { width: 100%; }
+    .text {
+      border-radius: 6px;
+      color: #000;
+      width: 100%;
+      background: rgba(255, 0, 255, 0.4);
+      font-family: "Courier New", monospace;
+      min-width: 300px;
+      position: relative;
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+    }
+    p { background:lightgreen; } 
+    b { color: blue; }
+    form { background: rgba(255,255,255,0.5); padding: 20px; border-radius: 6px; }
+    button{
+      background:rgba(0,255,0,0.5);
+      border:none;
+      color:#fff;
+      font-weight: bold;
+    padding:5px;
+    
+      
+    }
+    input{
+      height:70px;
+      text-wrap: nowrap;
+      border-color:blue;
+    }
+    
+    
+    input,button{
+      width:100%;
+      margin-top: 20px;
+    }
